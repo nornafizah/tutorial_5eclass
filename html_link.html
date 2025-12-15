@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML Links</title>
+
+	<style>
+		a:link 
+		{
+			color: green;
+			background-color: transparent;
+			text-decoration: none;
+		}
+
+		a:visited
+		{
+			color: pink;
+		}
+
+		a:hover
+		{
+			color: blue;
+			background-color: khaki;
+		}
+	</style>
+
+
+
+
+
+
+
+</head>
+<body>
+
+	<h3>Internal links</h3>
+	<a href="basic_structure.html">HTML Basic structure</a>
+
+	<h3>External links</h3>
+	<a href="https://www.kelantan.gov.my/index.php/kerajaan-negeri/jabatan-persekutuan">Visit JPA website</a>
+
+	<h3>Target Attributes</h3>
+	<a href="htm_colors.html" target="_blank">HTML colors</a>
+	<a href="html_images.html" target="_self">HTML images</a>
+
+	<h3>Image as links</h3>
+	<a href="htm_colors.html">
+		<img src="button/button_clickminded.png" target="_blank" title="HTML color page">
+	</a>
+
+	<h3>Button as links</h3>
+	<button onclick="document.location='basic_structure.html'">HTML Basic structure</button>
+
+
+
+
+</body>
+</html>

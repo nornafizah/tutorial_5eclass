@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>HTML javascripts</title>
+</head>
+<body>
+
+	<center><iframe src="https://free.timeanddate.com/clock/ia6uv36o/n122/fn6/fs16/fcf09/tc000/bas2/bat1/bacfff/pa8/tt0/th1/ta1/tb4" frameborder="0" width="274" height="58"></iframe></center>
+
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3969.694735681563!2d102.27091851076167!3d5.7570029315712485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31b68fe6f50d123f%3A0xaeb67217536d6442!2sUiTM%20Machang!5e0!3m2!1sen!2smy!4v1765179662329!5m2!1sen!2smy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+	<h2>Javascripts change content</h2>
+	<p id="content1">Iam using Javascript to change this content</p>
+
+	<button type="button" onclick='document.getElementById("content1").innerHTML="This is my second sentence. I use Javascript to change it"'>Click Here</button>
+
+	<h2>Javascript change the style</h2>
+	<p id="stail">I am using javascript to change the style of this content</p>
+
+	<script>
+		function myStyle()
+		{
+			document.getElementById("stail").style.fontSize="45px";
+			document.getElementById("stail").style.color="blue";
+			document.getElementById("stail").style.fontFamily="Lucida";
+			document.getElementById("stail").style.backgroundColor="Yellow";
+
+		}
+	</script>
+
+	<button type="button" onclick="myStyle()">Click Me</button>
+
+	<h2>Javascript do image manipulation</h2>
+
+	<script>
+		function mygambar (a)
+		{
+			var pict;
+			if (a==1)
+			{
+				pict="image/star.jpg"
+			}
+			else 
+			{
+				pict="image/plant.png"
+			}
+			document.getElementById('gambar').src=pict;
+		}
+	</script>
+
+	<img src="image/star.jpg" width="200" height="200" id="gambar">
+
+	<p>
+		<button type="button" onclick="mygambar(1)">Gambar A</button>
+		<button type="button" onclick="mygambar(4)">Gambar B</button>
+	</p>
+
+	<h2>Alert Box</h2>
+	<script>
+		{
+			alert("Assalamualaikum. \nWelcome to my page. \nEnjoy browsing")
+		}
+	</script>
+
+
+
+
+</body>
+</html>
