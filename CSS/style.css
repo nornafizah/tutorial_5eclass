@@ -1,0 +1,40 @@
+body  
+{
+	background-color: skyblue;
+}
+
+h1
+{
+	color: navy;
+	background-color: lightsalmon;
+	border: 3px dotted seagreen;
+	font-family: Verdana;
+
+}
+h3
+{
+	color: darkgreen;
+	background-color: lightcyan;
+	font-family: Papyrus;
+	text-align: center;
+}
+p 
+{
+	color: darkkhaki;
+	text-align: right;
+}
+table, tr, td, td  
+{
+	border: 3px solid hotpink;
+	border-collapse: collapse;
+}
+th
+{
+	background-color: black;
+	color: white;
+}
+tr:hover
+{
+	background-color: gold;
+
+}
